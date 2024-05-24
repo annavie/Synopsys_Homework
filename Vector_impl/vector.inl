@@ -2,8 +2,10 @@
 template<typename T>
 Vector<T>::Vector() 
                 : m_size(0)
-                , m_capacity(0) 
-                , m_arr(new T[m_capacity]) { }
+                , m_capacity(0) {
+	m_arr = new T[m_capacity];
+
+}
 
 template<typename T>
 Vector<T>::~Vector() { 
@@ -182,7 +184,6 @@ void Vector<T>::print() {
 		std::cout << std::endl;
 	}
 }
-
 template<typename T>
 int Vector<T>::get_size() const {
 	return m_size;
@@ -190,12 +191,10 @@ int Vector<T>::get_size() const {
 
 template<typename T>
 Vector<T> foo() {
-
 	Vector<int> myVector;
-        
 	for (int i = 10; i < 14; ++i) {
                 myVector.push_back(i);
         }
 
 	return myVector;
-}
+};

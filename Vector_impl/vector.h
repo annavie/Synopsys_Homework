@@ -29,6 +29,6 @@ private:
 	T* m_arr;
 };
 
-#include "vector.cpp"
+#include "vector.inl"
 
 #endif // VECTOR_H
