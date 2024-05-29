@@ -3,8 +3,6 @@
 
 class __lambda_esim_inch {
 public:
-
-    __lambda_esim_inch() : captured_second(dummy_second) {}
     template <typename T, typename U>
     auto operator()(T&& first, U&& second) {
         return std::forward<T>(first) + std::forward<U>(second);
@@ -13,13 +11,12 @@ public:
     template <typename T, typename U>
     void capture(T&& first, U&& second) {
         captured_first = std::forward<T>(first);
-        captured_second = std::forward<U>(second);
+        captured_second = &std::forward<U>(second);
     }
 
 private:
-    int dummy_second;
     int captured_first;
-    int& captured_second;
+    int* captured_second;
 };
 int main()
 {
@@ -31,14 +28,10 @@ int main()
     {
         return first + second;
     };
-    //xi chem karum senc sarqem obyekt@ erb vochmi ctor chka
-   // __lambda_esim_inch l;
-                    //^chi jogum default ctor@ knachi te operator() ?
-    
     __lambda_esim_inch l;
     l.capture(x, z);
 
-    std::cout << "Result of lambda function: " << l(3, 4) << std::endl;
+    std::cout << "Result of lambda function: " << l(7, 4) << std::endl;
 
 
     return 0;
