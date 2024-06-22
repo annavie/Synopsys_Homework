@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 Certainly! Below is the complete `README.md` file, incorporating the UML diagram and other details for your Elevator Control System project.
+=======
+>>>>>>> origin/main
 
 ### README.md
 
