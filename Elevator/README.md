@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Certainly! Below is the complete `README.md` file, incorporating the UML diagram and other details for your Elevator Control System project.
-=======
->>>>>>> origin/main
-
-### README.md
-
-```markdown
 # Elevator Control System
 
 This project simulates an elevator control system. The system processes requests to move the elevator up or down, handling both internal and external requests.
