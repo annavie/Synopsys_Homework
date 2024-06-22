@@ -76,7 +76,7 @@ The `Request` class holds information about a request to move the elevator.
 
 Below is the UML diagram for the Elevator Control System. It illustrates the relationships between the various classes and their interactions:
 
-![UML Diagram](./Elevator/uml.png)
+![UML Diagram](../Elevator/uml.png)
 
 ## Usage
 
