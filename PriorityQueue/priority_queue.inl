@@ -1,5 +1,5 @@
-#include "priority_queue.h"
 #include <iostream>
+#include "priority_queue.h"
 
 void PriorityQueue::insert(int element, int priority) {
     Node* newNode = new Node;
