@@ -1,0 +1,8 @@
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/carDriveSimulation.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/install.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/install/local.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/anna/Desktop/Synopsys/homwork_with_David/Game/build-carDriveSimulation-Desktop-Debug/CMakeFiles/carDriveSimulation_autogen.dir
