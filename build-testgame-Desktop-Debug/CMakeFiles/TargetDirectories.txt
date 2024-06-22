@@ -1,8 +1,0 @@
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/testgame.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/install.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/install/local.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/install/strip.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-testgame-Desktop-Debug/CMakeFiles/testgame_autogen.dir

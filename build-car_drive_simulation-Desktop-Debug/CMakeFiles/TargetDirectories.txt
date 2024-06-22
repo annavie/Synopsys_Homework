@@ -1,8 +1,0 @@
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/car_drive_simulation.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/install.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/install/local.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/install/strip.dir
-/home/anna/Desktop/Synopsys/homwork_with_David/build-car_drive_simulation-Desktop-Debug/CMakeFiles/car_drive_simulation_autogen.dir
