@@ -1,4 +1,4 @@
-Certainly! To include a UML diagram in your README file, you can reference the PNG image and describe its significance. Here's how you can incorporate the UML diagram:
+Certainly! Below is the complete `README.md` file, incorporating the UML diagram and other details for your Elevator Control System project.
 
 ### README.md
 
@@ -168,4 +168,4 @@ int main() {
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit pull requests with your improvements.
-
+```
