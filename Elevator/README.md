@@ -1,3 +1,8 @@
+Certainly! To include a UML diagram in your README file, you can reference the PNG image and describe its significance. Here's how you can incorporate the UML diagram:
+
+### README.md
+
+```markdown
 # Elevator Control System
 
 This project simulates an elevator control system. The system processes requests to move the elevator up or down, handling both internal and external requests.
@@ -7,11 +12,11 @@ This project simulates an elevator control system. The system processes requests
 - [Introduction](#introduction)
 - [Features](#features)
 - [Class Overview](#class-overview)
+- [UML Diagram](#uml-diagram)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -72,8 +77,95 @@ The `Request` class holds information about a request to move the elevator.
   - `Direction direction`: The direction of the request.
   - `Location location`: The location of the request (inside or outside the elevator).
 
+## UML Diagram
+
+Below is the UML diagram for the Elevator Control System. It illustrates the relationships between the various classes and their interactions:
+
+![UML Diagram](Elevator/uml.png)
+
 ## Usage
 
 1. **Create an Elevator instance:**
    ```cpp
    Elevator elevator(0);
+   ```
+
+2. **Create Requests:**
+   ```cpp
+   Request request1(0, 5, UP, OUTSIDE_ELEVATOR);
+   Request request2(5, 1, DOWN, INSIDE_ELEVATOR);
+   ```
+
+3. **Create Commands:**
+   ```cpp
+   std::shared_ptr<Command> moveUpCommand1 = std::make_shared<MoveUpCommand>(request1);
+   std::shared_ptr<Command> moveDownCommand2 = std::make_shared<MoveDownCommand>(request2);
+   ```
+
+4. **Add Commands to the Elevator:**
+   ```cpp
+   elevator.addUpRequest(moveUpCommand1);
+   elevator.addDownRequest(moveDownCommand2);
+   ```
+
+5. **Run the Elevator:**
+   ```cpp
+   elevator.run();
+   ```
+
+## Installation
+
+To compile and run the project:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/elevator-system.git
+   cd elevator-system
+   ```
+
+2. **Compile the project:**
+   ```sh
+   g++ main.cpp -o elevator
+   ```
+
+3. **Run the executable:**
+   ```sh
+   ./elevator
+   ```
+
+## Examples
+
+Here is a complete example of how to use the Elevator Control System:
+
+```cpp
+#include "Elevator.h"
+#include <memory>
+
+int main() {
+    Elevator elevator(0);
+
+    Request request1(0, 5, UP, OUTSIDE_ELEVATOR);
+    Request request2(5, 1, DOWN, INSIDE_ELEVATOR);
+    Request request3(1, 7, UP, OUTSIDE_ELEVATOR);
+    Request request4(2, 4, UP, INSIDE_ELEVATOR);
+
+    std::shared_ptr<Command> moveUpCommand1 = std::make_shared<MoveUpCommand>(request1);
+    std::shared_ptr<Command> moveDownCommand2 = std::make_shared<MoveDownCommand>(request2);
+    std::shared_ptr<Command> moveUpCommand3 = std::make_shared<MoveUpCommand>(request3);
+    std::shared_ptr<Command> moveUpCommand4 = std::make_shared<MoveUpCommand>(request4);
+
+    elevator.addUpRequest(moveUpCommand1);
+    elevator.addDownRequest(moveDownCommand2);
+    elevator.addUpRequest(moveUpCommand3);
+    elevator.addUpRequest(moveUpCommand4);
+
+    elevator.run();
+
+    return 0;
+}
+```
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit pull requests with your improvements.
+
